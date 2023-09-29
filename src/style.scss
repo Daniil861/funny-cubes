@@ -1,0 +1,26 @@
+@import "./styles/fonts";
+
+body {
+	font-family: June_Bug, sans-serif;
+	user-select: none;
+	padding: 0;
+	margin: 0;
+	// background-color: #1b3111;
+
+	&._game {
+		background: url("./assets/sprites/other/wall.png");
+	}
+	&._preloader {
+		background: url("./assets/sprites/other/bg-2.jpg") center / cover no-repeat;
+	}
+	&._titleScreen {
+		background: url("./assets/sprites/other/bg-1.jpg") center / cover no-repeat;
+	}
+}
+.font-preload {
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	visibility: hidden;
+	font-family: "June_Bug";
+}
